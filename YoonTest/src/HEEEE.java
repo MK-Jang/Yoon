@@ -1,3 +1,5 @@
+import java.nio.channels.AsynchronousFileChannel;
+
 /*****************************************************************
  * Copyright (c) 2013 Richslide. All Rights Reserved.
  * 
@@ -6,12 +8,14 @@
  * DESC : 
  *****************************************************************/
 
+
+import java.nio.channels.*;
 /**
  * @author 장윤석
  *
  */
 public class HEEEE {
-
+  
 	/** 
 	 * 
 	 */
@@ -25,6 +29,8 @@ public class HEEEE {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("1");
+		AsynchronousFileChannel ddd; 
+		
 	}
 
 }
